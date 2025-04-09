@@ -8,7 +8,7 @@ const eli= Special_Elite({subsets:['latin'], weight:['400']});
 
 function Footer() {
   return (
-    <div className=' -[800px] bg-[#987070] text-white pt-6 pb-3'>
+    <div className=' h-[800px] bg-[#987070] text-white pt-6 pb-3'>
     <h1 className='text-[45px] font-[500] text-center  ml-90'>Art&Expression . Community . Creativity </h1>
     <div className='flex  items-center space-x-[70px] '>
     <div className='relative  ml-0'>
