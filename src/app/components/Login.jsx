@@ -15,7 +15,7 @@ function Login() {
   return (
     <div className='mb-20'>
          <HoverCard>
-     <HoverCardTrigger><Image className='ml-85 ' width={700} height={900}  src='/letter.png' alt='hover to login / sign up'></Image></HoverCardTrigger>
+     <HoverCardTrigger><Image className='mx-auto max-w-full' width={700} height={900}  src='/letter.png' alt='hover to login / sign up'></Image></HoverCardTrigger>
      <HoverCardContent className='flex items-center justify-center'>
      <div className='flex justify-center items-center h-[500px] w-[800px] bg-[#C99C9C] p-6'>
         <div className='w-[700px]'>

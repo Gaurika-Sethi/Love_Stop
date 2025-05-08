@@ -13,10 +13,10 @@ function Navbar() {
             <span className={`${par.className} mt-4 text-[25px]`}>LOVE STOP</span>
         </div>
         <div className='flex space-x-6'>
-            <Link className= 'text-white text-[20px] font-[500] px-4 py-1 rounded-[50px] transition-all ease-linear hover:bg-[#FFEDDB] ]  hover:text-[#987070] 'href="/Login">Login</Link>
-            <Link className= 'text-white text-[20px] font-[500] px-4 py-1 rounded-[50px] transition-all ease-linear hover:bg-[#FFEDDB] ]  hover:text-[#987070] 'href="/Poetry">Poetry</Link>
-            <Link className= 'text-white text-[20px] font-[500] px-4 py-1 rounded-[50px] transition-all ease-linear hover:bg-[#FFEDDB] ]  hover:text-[#987070] 'href="/Quotes">Quotes</Link>
-            <Link className= 'text-white text-[20px] font-[500] px-4 py-1 rounded-[50px] transition-all ease-linear hover:bg-[#FFEDDB] ]  hover:text-[#987070] 'href="/Footer">About</Link>
+            <Link className= 'text-white text-[20px] font-[500] px-4 py-1 rounded-[50px] transition-all ease-linear hover:bg-[#FFEDDB] ]  hover:text-[#987070] 'href="/">Login</Link>
+            <Link className= 'text-white text-[20px] font-[500] px-4 py-1 rounded-[50px] transition-all ease-linear hover:bg-[#FFEDDB] ]  hover:text-[#987070] 'href="/">Poetry</Link>
+            <Link className= 'text-white text-[20px] font-[500] px-4 py-1 rounded-[50px] transition-all ease-linear hover:bg-[#FFEDDB] ]  hover:text-[#987070] 'href="/">Quotes</Link>
+            <Link className= 'text-white text-[20px] font-[500] px-4 py-1 rounded-[50px] transition-all ease-linear hover:bg-[#FFEDDB] ]  hover:text-[#987070] 'href="/">About</Link>
         </div>
     </nav>
   )

@@ -29,11 +29,6 @@ export default function RootLayout({ children }) {
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-[#FFEDDB]`}
       >
         <Navbar/>
-        <Hero/>
-        <Login/>
-        <Quote/>
-        <Poetry/>
-        <Footer/>
         {children}
       </body>
     </html>
